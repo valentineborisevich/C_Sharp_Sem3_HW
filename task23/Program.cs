@@ -2,9 +2,9 @@
 
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
-Console.WriteLine("Enter any number and I will print all the squareroots of the numbers between 1 to it");
+Console.WriteLine("Enter any number and I will print all the cubical of the numbers between 1 to it");
 int end = Convert.ToInt32(Console.ReadLine());
-// for(int i =1, i <= end, i++);
-// {
-//     Console.Write(Math.Pow(i, 2) + ", ");
-// }
+for(int i = 1; i <= end; i++)
+{
+    Console.Write(Math.Pow(i, 3) + ", ");
+}
